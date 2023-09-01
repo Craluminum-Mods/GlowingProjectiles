@@ -1,0 +1,11 @@
+{
+    "type": "code",
+    "side": "client",
+    "modid": "glowingprojectiles",
+    "name": "Glowing Projectiles",
+    "authors": ["Craluminum2413"],
+    "version": "1.1.0",
+    "dependencies": {
+        "game": "1.18.8"
+    }
+}
