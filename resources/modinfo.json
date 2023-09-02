@@ -4,7 +4,7 @@
     "modid": "glowingprojectiles",
     "name": "Glowing Projectiles",
     "authors": ["Craluminum2413"],
-    "version": "1.1.2",
+    "version": "1.1.3",
     "dependencies": {
         "game": "1.18.8"
     }

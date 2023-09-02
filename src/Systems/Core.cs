@@ -2,6 +2,7 @@ using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.Common.Entities;
 using Vintagestory.GameContent;
+using System;
 
 [assembly: ModInfo(name: "Glowing Projectiles", modID: "glowingprojectiles", Side = "Client")]
 
@@ -20,7 +21,7 @@ public class Core : ModSystem
 
     private void SetGlowLevel(Entity entity)
     {
-        if (entity is EntityProjectile || entity.Class.Contains("projectile"))
+        if (entity is EntityProjectile || entity.Class.Contains("projectile", StringComparison.OrdinalIgnoreCase))
         {
             entity.Properties.Client.GlowLevel = 255;
         }
